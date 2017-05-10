@@ -55,7 +55,7 @@ module.exports.register = (server, options, next) => {
     register(p.register.attributes.pkg.name, true);
   });
 
-  if (p) {
+  if (p && fs.existsSync(p)) {
     fs.readdirSync(p).forEach(f => {
 
       if (f.startsWith(`_`)) return;
