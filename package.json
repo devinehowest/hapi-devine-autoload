@@ -1,6 +1,6 @@
 {
   "name": "hapi-devine-autoload",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "🔧  This Hapi loads plugins from a folder and/or a given array and configures them",
   "main": "index.js",
   "repository": "devinehowest/hapi-devine-autoload",
